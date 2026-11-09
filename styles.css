@@ -1,0 +1,26 @@
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--color-bg,#fff);color:var(--color-fg,#111);font-family:var(--font-sans,system-ui,sans-serif);line-height:1.5;-webkit-font-smoothing:antialiased}
+img,svg,video{max-width:100%;display:block}
+a{color:inherit}
+
+:root {
+  --color-bg: #F2EDE3;
+  --color-surface: #FBF8F2;
+  --color-fg: #17150F;
+  --color-muted: #5E584C;
+  --color-primary: #17150F;
+  --color-on-primary: #F2EDE3;
+  --color-accent: #FF5A1F;
+  --color-on-accent: #17150F;
+  --color-moss: #3E5641;
+  --color-line: #D6CDBB;
+  --color-ink-2: #26231B;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --radius: 6px;
+  --radius-button: 999px;
+  --container: 1240px;
+  --color-accent-ink: #B23A0B;
+}
